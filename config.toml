@@ -1,7 +1,7 @@
 strict-sigcheck = false
 
 [YouTube]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
@@ -9,7 +9,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 "github:MorpheApp/morphe-patches" = []
 
 [YT-Music]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "both"
@@ -18,7 +18,7 @@ arch = "both"
 "github:MorpheApp/morphe-patches" = []
 
 [Reddit]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
@@ -75,7 +75,7 @@ github-dlurl = "https://github.com/krvstek/uni-storage/releases/tag/instagram"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram"
 # uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 arch = "arm64-v8a"
-patcher-args = "-e 'Theme' -Oamoled=true"
+patcher-args = "-e 'Theme' -Oamoled=false"
 
 [Instagram.patches]
 "github:crimera/piko" = []
@@ -977,7 +977,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/viber-media-s-a-r-l/viber/"
 "github:RookieEnough/De-Vanced" = []
 
 [YouTube_anddea]
-enabled = false
+enabled = true
 brand = "anddea"
 app-name = "YouTube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
