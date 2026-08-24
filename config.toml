@@ -3,14 +3,14 @@
 strict-sigcheck = false
 
 [YouTube]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [YouTube.patches]
 "github:MorpheApp/morphe-patches" = []
 
 [YT-Music]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 
@@ -18,7 +18,7 @@ arch = "both"
 "github:MorpheApp/morphe-patches" = []
 
 [Reddit]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 
 [Reddit.patches]
@@ -68,7 +68,7 @@ enabled = true
 brand = "piko"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram"
 arch = "arm64-v8a"
-patcher-args = "-e 'Theme' -Oamoled=true"
+patcher-args = "-e 'Theme' -Oamoled=false"
 
 [Instagram.patches]
 "github:crimera/piko" = []
