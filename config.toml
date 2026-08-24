@@ -66,7 +66,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 
 [X-Twitter.patches]
-"github:crimera/piko" = ["Browse tweet object", "Dynamic color"]
+"github:crimera/piko" = { version = "dev" }
 
 [Instagram]
 enabled = true
@@ -78,7 +78,7 @@ arch = "arm64-v8a"
 patcher-args = "-e 'Theme' -Oamoled=false"
 
 [Instagram.patches]
-"github:crimera/piko" = []
+"github:crimera/piko" = { version = "dev" }
 
 [AdGuard_hoo-dles]
 enabled = false
