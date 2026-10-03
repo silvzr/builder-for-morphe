@@ -129,7 +129,7 @@ changelog-keywords = ["Acrobat"]
 "github:rushiranpise/morphe-patches" = []
 
 [Proton-VPN]
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/proton-technologies-ag/protonvpn-secure-and-free-vpn/"
 changelog-keywords = ["Proton"]
