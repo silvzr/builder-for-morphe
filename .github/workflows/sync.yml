@@ -50,7 +50,7 @@ jobs:
         with:
           target_sync_repo: silvzr/builder-for-morphe
           target_sync_branch: main
-          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+          target_repo_token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
           upstream_sync_repo: nvbangg/builder-for-morphe
           upstream_sync_branch: main
           git_config_pull_rebase: true
